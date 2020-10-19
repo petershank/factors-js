@@ -4,13 +4,13 @@ function getPrimes (n) {
     var primes = []
     var i, j
   
-    if (check.not.integer(n)) {
-      throw new TypeError('Expected an integer')
-    }
+    // if (check.not.integer(n)) {
+    //   throw new TypeError('Expected an integer')
+    // }
   
-    if (check.not.greaterOrEqual(n, 2)) {
-      throw new TypeError('Expected an integer 2 or greater')
-    }
+    // if (check.not.greaterOrEqual(n, 2)) {
+    //   throw new TypeError('Expected an integer 2 or greater')
+    // }
   
     for (i = 2; i < max + 1; i++) {
       integers[i] = true
@@ -36,3 +36,5 @@ function getPrimes (n) {
     }
     return primes
   }
+
+  module.exports= getPrimes

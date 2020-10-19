@@ -1,12 +1,11 @@
 'use strict'
 
-const primes  = require('./primes.js')
+const getPrimes  = require('./primes.js')
 
 function factors (n) {
     'use strict'
     const factors = []
-   // const candidates = primes(Math.floor(Math.sqrt(n)))
-   const candidates = [2,3]
+   const candidates = getPrimes(Math.floor(Math.sqrt(n)))
    while ( candidates.length > 0 ) {
         while ( n % candidates[0] === 0 ) {
             factors.push(candidates[0])
@@ -24,4 +23,4 @@ function factors (n) {
 }
 
 // module.exports = factors
-console.log(factors(100))
+console.log(factors(25))
