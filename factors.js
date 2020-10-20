@@ -22,5 +22,4 @@ function factors (n) {
     return factors
 }
 
-// module.exports = factors
-console.log(factors(25))
+module.exports = factors
