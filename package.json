@@ -1,0 +1,22 @@
+{
+  "name": "factors",
+  "version": "1.0.0",
+  "description": "a javascript helper function takes an integer and returns an array of its prime factors",
+  "main": "factors.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js ./factors-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petershank/factors-js.git"
+  },
+  "author": "peter@shank.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petershank/factors-js/issues"
+  },
+  "homepage": "https://github.com/petershank/factors-js#readme"
+}
