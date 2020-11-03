@@ -1,6 +1,6 @@
 'use strict'
 
-const getPrimes  = require('./primes.js')
+const getPrimes  = require('primes')
 
 function factors (n) {
     'use strict'
