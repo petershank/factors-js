@@ -11,6 +11,7 @@ describe('factors', function() {
                 assert.deepStrictEqual(factors(25), [5, 5]);
                 assert.deepStrictEqual(factors(35), [5, 7]);
                 assert.deepStrictEqual(factors(30), [2, 3, 5]);
+                assert.deepStrictEqual(factors(73), [73]);
         });
       });
       
