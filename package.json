@@ -19,8 +19,8 @@
     "url": "https://github.com/petershank/factors-js/issues"
   },
   "homepage": "https://github.com/petershank/factors-js#readme",
-  "dependencies": {
-    "chai": "^4.2.0",
+  "dependencies": { },
+  "devDependencies": {
     "mocha": "^8.2.1"
   }
 }
